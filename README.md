@@ -77,14 +77,14 @@ Settings → **Customize → Skills** → upload `confound-check.zip`.
 ### Claude Code — personal (all your projects)
 
 ```bash
-git clone https://github.com/<you>/confound-check ~/.claude/skills/confound-check
+git clone https://github.com/0xNagato/confound-check ~/.claude/skills/confound-check
 ```
 
 ### Claude Code — project (shared with your team via git)
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/<you>/confound-check .claude/skills/confound-check
+git clone https://github.com/0xNagato/confound-check .claude/skills/confound-check
 rm -rf .claude/skills/confound-check/.git
 git add .claude/skills/confound-check && git commit -m "Add confound-check skill"
 ```
